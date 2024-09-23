@@ -10,14 +10,16 @@ CHECKLIST:
 - [ ] History Extraction
 
 ## Test Usage
-![image](https://github.com/user-attachments/assets/77228fe9-b441-415a-a45f-9b0ffdeaa1b3)\
+![image](https://github.com/user-attachments/assets/77228fe9-b441-415a-a45f-9b0ffdeaa1b3)
 
 **Execution time: 4.6836ms**
+
 **Entries Decrypted: 107**
 
 ![image](https://github.com/user-attachments/assets/5246b380-f641-4cdf-a098-874ea581995d)
 
 **Execution time: 453ms**
+
 **Entries Decrypted: 4071**
 
 Compared to other extractors that takes almost a minute to decrypt my passwords and cookies entries, this took under **seconds**.
