@@ -95,7 +95,13 @@ graph TD
 Execution time: 4.6836ms
 Entries Decrypted: 107
 
+![image](https://github.com/user-attachments/assets/5246b380-f641-4cdf-a098-874ea581995d)
+
+Execution time: 453ms
+Entries Decrypted: 4071
+
+Compared to other extractors that takes almost a minute to decrypt my passwords and cookies entries, this took under **seconds**.
 
 ## Limitations
-Due to its very high parallism usage, it might consume a lot of resources if the target has many entries, especially when decrypting cookies.
+Due to its very high parallism usage, it will consume a lot of resources if the target has many entries, especially when decrypting cookies.
 (if you just want the passwords, just use --passwords.)
