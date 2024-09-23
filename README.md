@@ -9,6 +9,19 @@ CHECKLIST:
 - [ ] Token Extraction
 - [ ] History Extraction
 
+## Test Usage
+![image](https://github.com/user-attachments/assets/77228fe9-b441-415a-a45f-9b0ffdeaa1b3)\
+
+**Execution time: 4.6836ms**
+**Entries Decrypted: 107**
+
+![image](https://github.com/user-attachments/assets/5246b380-f641-4cdf-a098-874ea581995d)
+
+**Execution time: 453ms**
+**Entries Decrypted: 4071**
+
+Compared to other extractors that takes almost a minute to decrypt my passwords and cookies entries, this took under **seconds**.
+
 
 # How to use? 
 download the precompiled binary in the release folder (currently only x86_64, cuz i aint cross compiling, build it yourself)
@@ -30,14 +43,15 @@ download the precompiled binary in the release folder (currently only x86_64, cu
 
 
 # How to build? 
-> install gcc and golang 
-> git clone the repo
-> go mod init 
-> go mod tidy
-> go env -w CGO_ENABLED=1
-> go env -w GOOS=windows
-> go build -ldflags "-s -w" browser.go
-> binary will be in current directory
+1. install gcc and golang 
+2. git clone the repo
+3. go mod init 
+4. go mod tidy
+5. go env -w CGO_ENABLED=1
+6. go env -w GOOS=windows
+7. go build -ldflags "-s -w" browser.go
+
+binary will be in current directory
 
 # For the Nerds
 
@@ -89,18 +103,7 @@ graph TD
     I --> K1[goroutines for Opera password]
 
     J --> L1[goroutines for Opera cookie]
-``` 
-## Test Usage
-![image](https://github.com/user-attachments/assets/77228fe9-b441-415a-a45f-9b0ffdeaa1b3)
-Execution time: 4.6836ms
-Entries Decrypted: 107
-
-![image](https://github.com/user-attachments/assets/5246b380-f641-4cdf-a098-874ea581995d)
-
-Execution time: 453ms
-Entries Decrypted: 4071
-
-Compared to other extractors that takes almost a minute to decrypt my passwords and cookies entries, this took under **seconds**.
+```
 
 ## Limitations
 Due to its very high parallism usage, it will consume a lot of resources if the target has many entries, especially when decrypting cookies.
