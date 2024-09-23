@@ -22,6 +22,9 @@ CHECKLIST:
 
 **Entries Decrypted: 4071**
 
+My CPU:
+Ryzen 5 7500F 6-Core processor
+
 Compared to other extractors that takes almost a minute to decrypt my passwords and cookies entries, this took under half a **second**.
 
 
