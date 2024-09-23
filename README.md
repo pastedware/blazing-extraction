@@ -22,7 +22,7 @@ CHECKLIST:
 
 **Entries Decrypted: 4071**
 
-Compared to other extractors that takes almost a minute to decrypt my passwords and cookies entries, this took under **seconds**.
+Compared to other extractors that takes almost a minute to decrypt my passwords and cookies entries, this took under half a **second**.
 
 
 # How to use? 
