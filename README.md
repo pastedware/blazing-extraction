@@ -90,8 +90,10 @@ graph TD
 
     J --> L1[goroutines for Opera cookie]
 ``` 
-## Example Usage
-
+## Test Usage
+![image](https://github.com/user-attachments/assets/77228fe9-b441-415a-a45f-9b0ffdeaa1b3)
+Execution time: 4.6836ms
+Entries Decrypted: 107
 
 
 ## Limitations
